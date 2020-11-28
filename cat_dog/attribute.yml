@@ -1,0 +1,15 @@
+a1_attribute: &a1
+  name: Tom
+  color: 蓝色
+  age: 3
+  gender: 公
+use:
+  <<: *a1
+a2_attribute: &a2
+  name: lucky
+  color: 白色
+  age: 4
+  gender: 公
+use1:
+  <<: *a2
+

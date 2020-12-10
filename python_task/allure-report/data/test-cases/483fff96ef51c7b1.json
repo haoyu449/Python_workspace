@@ -1,0 +1,156 @@
+{
+  "uid": "483fff96ef51c7b1",
+  "name": "test_add[add_mix]",
+  "fullName": "task_testing.TestCalculator#test_add",
+  "historyId": "2e0beb5bb248a18a377addb6d98606df",
+  "time": {
+    "start": 1607594232006,
+    "stop": 1607594232007,
+    "duration": 1
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "get_add_data",
+      "time": {
+        "start": 1607594232004,
+        "stop": 1607594232005,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "hasContent": false,
+      "stepsCount": 0,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    },
+    {
+      "name": "get_cale",
+      "time": {
+        "start": 1607594231977,
+        "stop": 1607594231977,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "hasContent": false,
+      "stepsCount": 0,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    }
+  ],
+  "testStage": {
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "198169a8fb4cbe72",
+        "name": "stdout",
+        "source": "198169a8fb4cbe72.txt",
+        "type": "text/plain",
+        "size": 65
+      }
+    ],
+    "parameters": [],
+    "hasContent": true,
+    "stepsCount": 0,
+    "shouldDisplayMessage": false,
+    "attachmentsCount": 1
+  },
+  "afterStages": [
+    {
+      "name": "get_add_data::0",
+      "time": {
+        "start": 1607594232007,
+        "stop": 1607594232008,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "hasContent": false,
+      "stepsCount": 0,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "story",
+      "value": "测试加法"
+    },
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "suite",
+      "value": "task_testing"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-FPTESP9"
+    },
+    {
+      "name": "thread",
+      "value": "14000-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "task_testing"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_add_data",
+      "value": "[10, -10, 0]"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": [
+      "add",
+      "run(order=1)"
+    ]
+  },
+  "source": "483fff96ef51c7b1.json",
+  "parameterValues": [
+    "[10, -10, 0]"
+  ]
+}

@@ -16,7 +16,6 @@ class TestWeWork:
             "noReset": True,
             "deviceName": "127.0.0.1:7555",
             "skipDeviceInitialization": True,
-            # "settings[waitForIdleTimeout]": 0
         }
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desire_cap)
         self.driver.implicitly_wait(10)

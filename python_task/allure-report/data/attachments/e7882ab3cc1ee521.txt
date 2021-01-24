@@ -1,4 +1,0 @@
-开始计算
-request.parm数据是：[20, 0, '分母不能为0']
-division by zero
-结束计算

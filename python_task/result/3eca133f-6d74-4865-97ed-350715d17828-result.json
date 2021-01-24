@@ -1,0 +1,73 @@
+{
+  "name": "test_div[div_denominator_zero]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert None == '分母不能为0'",
+    "trace": "self = <python_task.task_testing.TestCalculator object at 0x000002597D6DF5B0>, get_cale = <python_code.calc.Calculator object at 0x000002597D601310>\nget_div_data = [20, 0, '分母不能为0']\n\n    @allure.story('测试除法')\n    @pytest.mark.run(order=4)\n    @pytest.mark.div\n    def test_div(self, get_cale, get_div_data):\n        result = None\n        try:\n            result = get_cale.div(get_div_data[0], get_div_data[1])\n            if isinstance(result, float):\n                result = round(result, 2)\n        except Exception as e:\n            print(e)\n>       assert result == get_div_data[2]\nE       AssertionError: assert None == '分母不能为0'\n\ntask_testing.py:31: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "d87de3bb-cc1c-408a-a776-3c305a840be2-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_div_data",
+      "value": "[20, 0, '分母不能为0']"
+    }
+  ],
+  "start": 1607594232396,
+  "stop": 1607594232399,
+  "uuid": "f624ef59-dd8a-416c-b728-0593195283ac",
+  "historyId": "dc2dc1342b85a977d1d7ff744a4f2e3b",
+  "testCaseId": "b64c15baee076a4d86beecad41fd6da0",
+  "fullName": "task_testing.TestCalculator#test_div",
+  "labels": [
+    {
+      "name": "story",
+      "value": "测试除法"
+    },
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "tag",
+      "value": "div"
+    },
+    {
+      "name": "suite",
+      "value": "task_testing"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-FPTESP9"
+    },
+    {
+      "name": "thread",
+      "value": "14000-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "task_testing"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "test_div[div_negative]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "22b6d9b1-3938-4419-8910-56a54c845b1d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_div_data",
+      "value": "[-10, -5, 2]"
+    }
+  ],
+  "start": 1607594232330,
+  "stop": 1607594232331,
+  "uuid": "0630ae42-6436-44cc-b595-e604d87debe0",
+  "historyId": "7fc86a562ee396be9a4b155c8b8f77cb",
+  "testCaseId": "b64c15baee076a4d86beecad41fd6da0",
+  "fullName": "task_testing.TestCalculator#test_div",
+  "labels": [
+    {
+      "name": "story",
+      "value": "测试除法"
+    },
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "tag",
+      "value": "div"
+    },
+    {
+      "name": "suite",
+      "value": "task_testing"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-FPTESP9"
+    },
+    {
+      "name": "thread",
+      "value": "14000-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "task_testing"
+    }
+  ]
+}

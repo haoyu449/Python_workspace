@@ -1,0 +1,4 @@
+开始计算
+request.parm数据是：[' ', 5, '请输入数字']
+unsupported operand type(s) for /: 'str' and 'int'
+结束计算

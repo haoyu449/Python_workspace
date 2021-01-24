@@ -1,0 +1,69 @@
+{
+  "name": "test_add[add_mix]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "010971f8-d992-4636-97cb-181846e71e0e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_add_data",
+      "value": "[10, -10, 0]"
+    }
+  ],
+  "start": 1607594232006,
+  "stop": 1607594232007,
+  "uuid": "da2cea25-bf08-47f5-ba87-c102306381f0",
+  "historyId": "2e0beb5bb248a18a377addb6d98606df",
+  "testCaseId": "d2226f0421fa1e691c11fb1d6641427a",
+  "fullName": "task_testing.TestCalculator#test_add",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "story",
+      "value": "测试加法"
+    },
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "suite",
+      "value": "task_testing"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-FPTESP9"
+    },
+    {
+      "name": "thread",
+      "value": "14000-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "task_testing"
+    }
+  ]
+}
